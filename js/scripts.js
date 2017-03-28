@@ -26,6 +26,10 @@ $(document).ready(function(){
     });
     $('#stress_survey').hide();
 
+    if (totalArray.length >= 2 && symptomArray.length >=3) {
+      $("#site1").show();
+    }
+
 
 
 
