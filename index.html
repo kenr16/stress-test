@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_survey">
+        <div class="form-group">
+          <p>In the past six months, what negative events have happened to you?:</p>
+          <input type="checkbox" name="pos-event" value="divorce"> had a divorce<br>
+          <input type="checkbox" name="pos-event" value="death">had a death in the family<br>
+          <input type="checkbox" name="pos-event" value="injury">suffered an injury<br>
+          <input type="checkbox" name="pos-event" value="car">been in a car accident.<br>
+          <input type="checkbox" name="pos-event" value="law">been involved in a lawsuit<br>
+          <input type="checkbox" name="pos-event" value="work">difficulties at work<br>
+          <input type="checkbox" name="pos-event" value="pet">death of a pet<br>
+          <input type="checkbox" name="pos-event" value="breakup">relationship problems<br>
+          <input type="checkbox" name="pos-event" value="money">financial problems.<br>
+          <input type="checkbox" name="pos-event" value="evict">been evicted.<br>
+          <input type="checkbox" name="pos-event" value="friendship">losing a friend.<br>
+          <input type="checkbox" name="pos-event" value="jail">been arrested<br>
+          <input type="checkbox" name="pos-event" value="other">other<br>
+        </div>
+        <div class="form-group">
+          <p>In the past six months, what positive events have happened to you?:</p>
+          <input type="checkbox" name="neg-event" value="kids"> had chrildren<br>
+          <input type="checkbox" name="neg-event" value="job">got a promotion<br>
+          <input type="checkbox" name="neg-event" value="wedding">got married<br>
+          <input type="checkbox" name="neg-event" value="home">bought a house.<br>
+          <input type="checkbox" name="neg-event" value="car">bought a car.<br>
+          <input type="checkbox" name="neg-event" value="friend">Made a new friend<br>
+          <input type="checkbox" name="neg-event" value="win">won the lottery<br>
+          <input type="checkbox" name="neg-event" value="other">other<br>
+        </div>
+        <div class="form-group">
+          <p>In the past six months, what symptoms have you experienced?:</p>
+          <input type="checkbox" name="symptom" value="blood"> High blood pressure<br>
+          <input type="checkbox" name="symptom" value="panic">Panic Attack<br>
+          <input type="checkbox" name="symptom" value="insomnia">Insomnia<br>
+          <input type="checkbox" name="symptom" value="Fatigue">Fatigue <br>
+          <input type="checkbox" name="symptom" value="depression">Depression<br>
+          <input type="checkbox" name="symptom" value="frustration">frustration <br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="pos-responses">
+        <p><b>pos</b></p>
+      </span>
+      <br>
+      <span id="neg-responses">
+        <p><b>neg</b></p>
+      </span>
+      <span id="sym-responses">
+        <p><b>sym</b></p>
+      </span>
+    </div>
+  </body>
+</html>
